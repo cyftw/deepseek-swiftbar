@@ -2,7 +2,7 @@
 
 A lightweight, zero-dependency macOS menu bar plugin for SwiftBar to monitor your DeepSeek API usage in real-time.
 
-![SwiftBar Example](https://raw.githubusercontent.com/deepseek-ai/deepseek-ai.github.io/main/favicon.ico)
+![SwiftBar Example](mockup.png)
 
 ## Features
 - **Real-time Balance**: Displays your current balance directly in the macOS menu bar.
