@@ -24,7 +24,7 @@ Run these commands in your terminal to download and set up the script:
 mkdir -p ~/SwiftBarPlugins
 
 # 2. Download the script
-curl -L https://raw.githubusercontent.com/YOUR_USERNAME/deepseek-swiftbar/main/deepseek_balance.5m.sh -o ~/SwiftBarPlugins/deepseek_balance.5m.sh
+curl -L https://raw.githubusercontent.com/cyftw/deepseek-swiftbar/main/deepseek_balance.5m.sh -o ~/SwiftBarPlugins/deepseek_balance.5m.sh
 
 # 3. Make it executable
 chmod +x ~/SwiftBarPlugins/deepseek_balance.5m.sh
@@ -39,11 +39,14 @@ nano ~/SwiftBarPlugins/deepseek_balance.5m.sh
 
 ## How to use
 Once the script is in your SwiftBar plugins folder:
-1. **Balance Display**: You will see `DS: $X.XX USD` in your menu bar.
+1. **Balance Display**: You will see your balance with a green banknote icon (`􀠀`).
 2. **Menu Options**:
-   - **Pausar Monitoreo**: Stops API calls and shows a ⏸️ icon.
+   - **Pausar Monitoreo**: Stops API calls and shows a pause icon (`􀊄`).
    - **Activar Monitoreo**: Resumes balance fetching.
-   - **Details**: View topped-up vs granted balance.
+   - **Details**: View topped-up (`􀑗`) and granted (`􀠅`) balance breakdown.
+
+> [!NOTE]
+> The preview image above is a design mockup. The actual appearance in your menu bar will follow standard macOS menu styling and use SF Symbols for icons.
 
 ## License
 MIT
